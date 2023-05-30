@@ -37,6 +37,10 @@
         display: flex;
         color: #5f8b18;
         justify-content: center;
+        list-style: disc;
+    }
+    .slick-dots button{
+        visibility: hidden !important;
     }
 }
 
