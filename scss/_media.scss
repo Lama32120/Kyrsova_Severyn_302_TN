@@ -1,0 +1,161 @@
+@media (max-width: 1399px){
+    .menu{
+        &_item{
+            padding-right: 40px;
+        }
+    }
+    .about{
+        &_item{
+            padding-right: 160px;
+        }
+    }
+    .gallery{
+        &_img{
+            width: 570px;
+            height: 350px;
+        }
+        &_img2{
+            width: 570px;
+            height: 350px;
+        }
+    }
+}
+
+@media (max-width: 1199px){
+    .menu{
+        &_item{
+            padding-right: 25px;
+            &:first-child{
+                padding-right: 70px;
+            }
+        }
+    }
+    .news{
+        &_change{
+            max-width: 810px;   
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .menu{
+        &_item{
+            padding-right: 5px;
+            &:first-child{
+                padding-right: 50px;
+            }
+        }
+    }
+    .content{
+        &_warning{
+            &_write{
+                font-size: 15px;
+            }
+        }
+    }
+    .about{
+        &_item{
+            padding-right: 0;
+            &_back{
+                padding-left: 0;
+            }
+        }
+    }
+    .news{
+        &_change{
+            max-width: 570px;
+        }
+    }
+    .carousel{
+        &_img{
+            width: 530px;
+            height: 330px;
+
+        }
+        &_inner{
+            width: 530px;
+            padding: 10px 0;   
+            
+        }
+        &_title{
+            padding-top: 10px;
+        }
+        .slick-prev, .slick-next{
+            img{
+                width: 35px;
+                height: 55px;
+            }
+        }
+    }
+    .gallery{
+        &_img{
+            width: 360px;
+            height: 220px;
+        }
+        &_img2{
+            width: 360px;
+            height: 220px;
+        }
+        &_title{
+            padding-top: 15px;
+        }
+    }
+    .contacts{
+        &_addr{
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .carousel{
+        &_img{
+            width: 470px;
+            height: 250px;
+
+        }
+        &_inner{
+            width: 470px;
+            padding: 10px 0;   
+            
+        }
+        &_title{
+            padding-top: 10px;
+        }
+        .slick-prev, .slick-next{
+            visibility: hidden;
+            img{
+                width: 35px;
+                height: 55px;
+            }
+        }
+    }
+    .news{
+        &_change{
+            max-width: 390px;
+        }   
+    }
+    .gallery{
+        &_img{
+            width: 270px;
+            height: 170px;
+        }
+        &_img2{
+            width: 270px;
+            height: 170px;
+        }
+        &_title{
+            padding-top: 15px;
+        }
+    }
+    .content{
+        &_warning{
+            display: block;
+            text-align: center;
+            &_write{
+                font-size: 13px;
+                padding-bottom: 5px;
+            }
+        }
+    }  
+}
