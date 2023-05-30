@@ -28,3 +28,14 @@ function ToContactsPage() {
     window.location.href = 'contacts.html';
 }
 
+$(document).ready(function(){
+    $('.carousel_inner').slick({
+        dots: true,
+        dotsClass:'slick-dots',
+        speed: 1200,
+        autoplay: true,
+        autoplaySpeed: 2800,
+        prevArrow: '<button type="button" class="slick-prev"><img src="../img/slider/prev_arrow.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="../img/slider/next_arrow.png"></button>'
+    });
+});
