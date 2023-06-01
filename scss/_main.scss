@@ -5,6 +5,7 @@
 nav{
     background-color: #6e1414;
     height: 55px;
+    width: 100%;
 }
 
 .menu{
@@ -37,6 +38,10 @@ nav{
             padding-right: 90px;
         }
     }
+}
+
+.hamburger{
+    display: none   ;
 }
 
 .content{
